@@ -1,0 +1,33 @@
+.header {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #eee;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  z-index: 50;
+}
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: inherit;
+}
+.nav {
+  display: flex;
+  gap: 14px;
+  text-transform: lowercase;
+}
+.nav a {
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 0.3px;
+}
+.nav a:hover { text-decoration: underline; }
